@@ -5,6 +5,10 @@ class Triangle
   attributes.each {|key, value| self.send(("#{key}="), value)}
   end
 
+  def kind(key)
+    
+  end
+
   class TriangleError < StandardError
   end
 end
