@@ -14,6 +14,7 @@ class Triangle
       self.kind = :isosceles
     elsif @side1 != @side2 && @side1 != @side3 && @side2 != @side3
       self.kind = :scalene
+    end
   end
 
   class TriangleError < StandardError
