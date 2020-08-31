@@ -5,7 +5,7 @@ class Triangle
 
   end
 
-  def kind(key)
+  def kind
 
   end
 
